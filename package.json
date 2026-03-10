@@ -1,0 +1,28 @@
+{
+  "name": "arthouse-mint-agent",
+  "version": "1.0.0",
+  "description": "AI Agent that helps village artists mint and sell NFT art on Base Network",
+  "main": "agent/index.js",
+  "scripts": {
+    "start": "node agent/index.js",
+    "deploy": "npx hardhat run scripts/deploy.js --network base"
+  },
+  "dependencies": {
+    "ethers": "^6.0.0",
+    "dotenv": "^16.0.0",
+    "@pinata/sdk": "^2.1.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "keywords": [
+    "nft",
+    "base",
+    "ai-agent",
+    "arthouse",
+    "synthesis-hackathon",
+    "onchain-art",
+    "x402"
+  ],
+  "author": "Yusup Sapari (@arthousebase)",
+  "license": "MIT"
+}
